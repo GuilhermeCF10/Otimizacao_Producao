@@ -97,11 +97,11 @@ O código em questão executa uma análise de otimização de produção para um
 
 ## Preparação de Dados:
 
-convert_currency_to_float: Converte strings de valores monetários em formato brasileiro para números de ponto flutuante.
+```convert_currency_to_float```: Converte strings de valores monetários em formato brasileiro para números de ponto flutuante.
 convert_time_to_minutes: Converte strings de tempo no formato "horas:minutos:segundos" para o total de minutos.
 Definição de Parâmetros:
 
-tempo_maximo_diario é definido como 300 minutos (5 horas), representando o tempo máximo disponível para produção em um único dia.
+```tempo_maximo_diario``` é definido como 300 minutos (5 horas), representando o tempo máximo disponível para produção em um único dia.
 dias_de_producao é definido como 10 dias, indicando o período de tempo total considerado para a análise.
 Processo de Otimização:
 
